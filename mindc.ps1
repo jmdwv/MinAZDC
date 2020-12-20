@@ -1,0 +1,2 @@
+Install-WindowsFeature -Name AD-Domain-Services
+Install-ADDSForest -CreateDnsDelegation:$false -DomainName exchangelab.local -InstallDns:$true -SafeModeAdministratorPassword (ConvertTo-SecureString "P@ssword12345" -AsPlainText -Force) -Force:$true
