@@ -92,7 +92,7 @@
                     }
                 ],
                 "dnsSettings": {
-                    "dnsServers": ["127.0.0.1"],
+                    "dnsServers": ["127.0.0.1"]
                   },
                 "networkSecurityGroup": {
                     "id": "[variables('nsgId')]"
