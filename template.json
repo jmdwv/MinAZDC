@@ -54,7 +54,7 @@
             "type": "string"
         },
         "adminPassword": {
-            "type": "secureString"
+            "type": "securestring"
         },
         "patchMode": {
             "type": "string"
@@ -158,7 +158,7 @@
                 },
                 "storageProfile": {
                     "osDisk": {
-                        "createOption": "fromImage",
+                        "createOption": "FromImage",
                         "managedDisk": {
                             "storageAccountType": "[parameters('osDiskType')]"
                         }
